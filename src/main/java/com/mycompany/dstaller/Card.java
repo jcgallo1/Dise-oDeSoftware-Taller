@@ -9,11 +9,10 @@ package com.mycompany.dstaller;
  *
  * @author User
  */
-public class Main {
+public interface Card {
+    public static final int costo=0;
+    public static final int limitecredito=0;
     
-    public static void Main(String[] args){
-        
-        
-        
-    }
+    void cardMethods();
+    
 }
